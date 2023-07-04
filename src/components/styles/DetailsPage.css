@@ -44,4 +44,9 @@
   .card {
     padding: 1.5rem;
   }
+
+  .back-link {
+    top: 1px;
+    left: 1px;
+  }
 }
