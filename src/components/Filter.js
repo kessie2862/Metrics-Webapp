@@ -1,6 +1,7 @@
 import React from 'react';
 import { useDispatch } from 'react-redux';
 import { filterCategories } from '../redux/categoriesSlice';
+import './styles/Filter.css';
 
 function Filter() {
   const dispatch = useDispatch();
@@ -11,11 +12,13 @@ function Filter() {
   };
 
   return (
-    <div>
+    <div className="filter-container">
+      <h1 className="logo">CryptoGate</h1>
       <input
         type="text"
         onChange={handleFilterChange}
-        placeholder="Filter categories"
+        placeholder="search currency..."
+        className="filter-input"
       />
     </div>
   );
