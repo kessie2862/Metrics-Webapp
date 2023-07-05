@@ -7,7 +7,7 @@ import Filter from './Filter';
 import Footer from './Footer';
 import './styles/HomePage.css';
 
-function HomePage() {
+const HomePage = () => {
   const dispatch = useDispatch();
   const categories = useSelector(
     (state) => state.categories.filteredCategories,
@@ -55,6 +55,6 @@ function HomePage() {
       <Footer />
     </div>
   );
-}
+};
 
 export default HomePage;
