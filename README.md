@@ -1,4 +1,4 @@
-# 📖 CryptoGate Metric-Webapp
+> # 📖 CryptoGate Metric-Webapp
 
 # 📗 Table of Contents
 
@@ -23,7 +23,7 @@
 
 # 📖 CryptoGate Metric-Webapp <a name="about-project"></a>
 
-**CryptoGate Metrics-Webapp** - is a SPA application built using React and Redux. It fetches and displays data from the coinstats API. The app lets users to get details of various cryptocurrencies.
+> **CryptoGate Metrics-Webapp** - is a SPA application built using React and Redux. It fetches and displays data from the coinstats API. The app lets users to get details of various cryptocurrencies.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -64,12 +64,8 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **Comments:** The API endpoint allows users to leave comments on specific meals and also tracks the number of comments
-- **Likes:** The API allows enables users to express their preferences by tracking the number of likes passed on specific meals
-- **Meals info:** The API provides endpoints that retrieve details about meals, including image, category, ingredients, and instructions.
-- **API's USED**
-  - **[Meals API](https://www.themealdb.com/api/json/v1/1/filter.php?c=Chicken)** - for retrieving and displaying meals on the UI
-  - **[Interactive API](https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/9vUKLfgfPbeVlsgu5dzp)** - for user interactions such as likes and comments.
+- **[Users can filter crypto categories]**
+- **[Users can see details of each crypto category]**
 
 <!-- GETTING STARTED -->
 
@@ -163,7 +159,7 @@ If you like this project, kindly leave a ⭐
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank [akezeth](https://github.com/akezeth) for his contribution to make this project a success.
+I will give credit to [Nelson Sakwa]( https://www.behance.net/sakwadesignstudio) for the design inspiration, microverse and coding partners.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
