@@ -46,27 +46,27 @@ const DetailsPage = () => {
           Rank:
           {rank}
         </p>
-        <p>
+        <p className="bg">
           Price:
           {price}
         </p>
-        <p>
+        <p className="bg">
           Price (BTC):
           {priceBtc}
         </p>
-        <p>
+        <p className="bg">
           Volume:
           {volume}
         </p>
-        <p>
+        <p className="bg">
           Market Cap:
           {marketCap}
         </p>
-        <p>
+        <p className="bg">
           Available Supply:
           {availableSupply}
         </p>
-        <p>
+        <p className="bg">
           Total Supply:
           {totalSupply}
         </p>
