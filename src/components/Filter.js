@@ -3,7 +3,7 @@ import { useDispatch } from 'react-redux';
 import { filterCategories } from '../redux/categoriesSlice';
 import './styles/Filter.css';
 
-function Filter() {
+const Filter = () => {
   const dispatch = useDispatch();
 
   const handleFilterChange = (e) => {
@@ -22,6 +22,6 @@ function Filter() {
       />
     </div>
   );
-}
+};
 
 export default Filter;

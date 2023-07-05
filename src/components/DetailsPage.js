@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import Footer from './Footer';
 import './styles/DetailsPage.css';
 
-function DetailsPage() {
+const DetailsPage = () => {
   const selectedCategory = useSelector(
     (state) => state.categories.selectedCategory,
   );
@@ -74,6 +74,6 @@ function DetailsPage() {
       <Footer />
     </div>
   );
-}
+};
 
 export default DetailsPage;
