@@ -12,7 +12,7 @@
 
 body {
   font-family: 'Fira Sans', sans-serif;
-  background-color: rgb(244, 244, 244);
+  background-color: rgb(248, 248, 248);
 }
 
 .homepage-container {
@@ -50,6 +50,14 @@ body {
   transition: box-shadow 0.3s, transform 0.3s;
 }
 
+.card:nth-child(8n + 2),
+.card:nth-child(8n + 4),
+.card:nth-child(8n + 5),
+.card:nth-child(8n + 7) {
+  background-color: #f1f1f1;
+  border: 2px solid #fff;
+}
+
 .card:hover {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   transform: translateY(-2px);
@@ -65,6 +73,40 @@ body {
   color: #656565;
 }
 
+@media (min-width: 1025px) and (max-width: 1146px) {
+  .card:nth-child(8n + 2),
+  .card:nth-child(8n + 4),
+  .card:nth-child(8n + 6),
+  .card:nth-child(8n + 8) {
+    background-color: #ededed;
+    border: 1px solid #fff;
+  }
+
+  .card:nth-child(8n + 1),
+  .card:nth-child(8n + 3),
+  .card:nth-child(8n + 5),
+  .card:nth-child(8n + 7) {
+    background-color: #fff;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+  .card:nth-child(8n + 2),
+  .card:nth-child(8n + 3),
+  .card:nth-child(8n + 6),
+  .card:nth-child(8n + 7) {
+    background-color: #ededed;
+    border: 1px solid #fff;
+  }
+
+  .card:nth-child(8n + 1),
+  .card:nth-child(8n + 4),
+  .card:nth-child(8n + 5),
+  .card:nth-child(8n + 8) {
+    background-color: #fff;
+  }
+}
+
 @media (max-width: 1024px) {
   .card-container {
     grid-template-columns: repeat(2, 1fr);
@@ -74,6 +116,21 @@ body {
 @media (max-width: 600px) {
   .card-container {
     grid-template-columns: repeat(1, 1fr);
+  }
+
+  .card:nth-child(8n + 2),
+  .card:nth-child(8n + 4),
+  .card:nth-child(8n + 6),
+  .card:nth-child(8n + 8) {
+    background-color: #ededed;
+    border: 1px solid #fff;
+  }
+
+  .card:nth-child(8n + 1),
+  .card:nth-child(8n + 3),
+  .card:nth-child(8n + 5),
+  .card:nth-child(8n + 7) {
+    background-color: #fff;
   }
 }
 
