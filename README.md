@@ -147,7 +147,7 @@ To start this project, run
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/kessie2862/Space-Travelers-React-Group-Project/issues).
+Feel free to check the [issues page](https://github.com/kessie2862/Metrics-Webapp/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -171,4 +171,4 @@ I would like to thank [akezeth](https://github.com/akezeth) for his contribution
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://github.com/kessie2862/Space-Travelers-React-Group-Project/blob/dev/LICENSE) licensed.
+This project is [MIT](https://github.com/kessie2862/Metrics-Webapp/blob/dev/LICENSE) licensed.
