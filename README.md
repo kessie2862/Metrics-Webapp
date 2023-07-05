@@ -30,7 +30,7 @@
 - **CSS**
 - **REACT**
 - **REDUX**
-- **COINSTATS API**
+- **API**
 
 ### Tech Stack <a name="tech-stack"></a>
 
@@ -56,9 +56,9 @@
 </details>
 
 <details>
-  <summary>COINSTATS API</summary>
+  <summary>API</summary>
   <ul>
-    <li><a href="https://documenter.getpostman.com/view/5734027/RzZ6Hzr3?version=latest#032b7e87-b11d-4d05-9f54-024cfd7e8a5c">COINSTATS API</a></li>
+    <li><a href="https://documenter.getpostman.com/view/5734027/RzZ6Hzr3?version=latest#032b7e87-b11d-4d05-9f54-024cfd7e8a5c">API</a></li>
   </ul>
 </details>
 
@@ -66,7 +66,7 @@
 
 - **[Users can filter crypto categories]**
 - **[Users can see details of each crypto category]**
-- - **[Responsive Layout]**
+- **[Responsive Layout]**
 
 <!-- GETTING STARTED -->
 
