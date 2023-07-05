@@ -1,4 +1,4 @@
-> # 📖 CryptoGate Metric-Webapp
+> # 📖 CryptoGate Metrics-Webapp
 
 # 📗 Table of Contents
 
@@ -66,6 +66,7 @@
 
 - **[Users can filter crypto categories]**
 - **[Users can see details of each crypto category]**
+- - **[Responsive Layout]**
 
 <!-- GETTING STARTED -->
 
@@ -133,7 +134,7 @@ To start this project, run
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Making the page responsive]**
+- [ ] **[Add a more functional navigation]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
