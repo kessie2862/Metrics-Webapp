@@ -35,9 +35,21 @@
 
 .card p {
   margin-bottom: 1rem;
-  font-size: 1.1rem;
+  font-size: 1rem;
   font-weight: 600;
   color: #656565;
+}
+
+.bg:nth-child(even) {
+  background-color: rgb(209, 209, 209);
+  color: #fff;
+  padding: 0.4rem 0;
+}
+
+.bg:nth-child(odd) {
+  background-color: #fff;
+  padding: 0.4rem 0;
+  border: 1px solid rgb(209, 209, 209);
 }
 
 @media screen and (max-width: 768px) {
