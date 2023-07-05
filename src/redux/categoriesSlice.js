@@ -1,5 +1,4 @@
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
-import axios from 'axios';
 
 const initialState = {
   categories: [],
@@ -12,8 +11,9 @@ const initialState = {
 export const fetchCategories = createAsyncThunk(
   'categories/fetchCategories',
   async () => {
-    const response = await axios.get('https://api.coinstats.app/public/v1/coins');
-    return response.data.coins;
+    const response = await fetch('https://api.coinstats.app/public/v1/coins');
+    const data = await response.json();
+    return data.coins;
   },
 );
 

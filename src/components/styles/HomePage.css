@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;500;600;700;800&family=Lobster&family=Titillium+Web:ital,wght@1,600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: 'Fira Sans', sans-serif;
+  background-color: rgb(244, 244, 244);
+}
+
+.homepage-container {
+  padding: 2rem;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 1rem;
+}
+
+.card-header {
+  position: relative;
+}
+
+.arrow-icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 1.5rem;
+  color: #656565;
+}
+
+.card {
+  position: relative;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.16) 0 3px 6px, rgba(0, 0, 0, 0.23) 0 3px 6px;
+  padding: 1.3rem;
+  border-radius: 0.3rem;
+  text-align: center;
+  transition: box-shadow 0.3s, transform 0.3s;
+}
+
+.card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transform: translateY(-2px);
+  border: 0.5px solid #656565;
+}
+
+.card img {
+  max-width: 100%;
+  height: auto;
+}
+
+.category-text {
+  color: #656565;
+}
+
+@media (max-width: 1024px) {
+  .card-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .card-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media (max-width: 300px) {
+  .arrow-icon {
+    top: -7px;
+    right: -9px;
+  }
+}
