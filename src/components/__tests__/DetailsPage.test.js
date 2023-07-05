@@ -41,7 +41,7 @@ describe('DetailsPage', () => {
     const { getByText } = render(
       <Provider store={store}>
         <DetailsPage />
-      </Provider>
+      </Provider>,
     );
 
     expect(getByText('Loading...')).toBeInTheDocument();
