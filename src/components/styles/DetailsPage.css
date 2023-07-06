@@ -43,12 +43,12 @@
 .bg:nth-child(even) {
   background-color: rgb(209, 209, 209);
   color: #fff;
-  padding: 0.4rem 0;
+  padding: 0.3rem 0;
 }
 
 .bg:nth-child(odd) {
   background-color: #fff;
-  padding: 0.4rem 0;
+  padding: 0.3rem 0;
   border: 1px solid rgb(209, 209, 209);
 }
 
@@ -60,5 +60,11 @@
   .back-link {
     top: 1px;
     left: 1px;
+    margin-bottom: 1rem;
+  }
+
+  .card p {
+    margin-bottom: 0.7rem;
+    font-size: 0.9rem;
   }
 }
