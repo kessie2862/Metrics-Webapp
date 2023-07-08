@@ -12,6 +12,17 @@
   position: absolute;
   top: 2rem;
   left: 2rem;
+  color: #656565;
+  background-color: #fff;
+  padding: 0.3rem 0.5rem;
+  border-radius: 0.2rem;
+  border: 1px solid #c3c3c3;
+  transition: box-shadow 0.3s, transform 0.3s;
+}
+
+.back-link:hover {
+  transform: translateY(-2px);
+  border: 0.5px solid #656565;
 }
 
 .left-arrow-icon {
@@ -58,8 +69,8 @@
   }
 
   .back-link {
-    top: 0.5rem;
-    left: 0.4rem;
+    top: 0.7rem;
+    left: 0.7rem;
     margin-bottom: 1rem;
   }
 
