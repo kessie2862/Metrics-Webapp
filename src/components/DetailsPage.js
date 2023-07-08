@@ -1,6 +1,5 @@
 import React from 'react';
 import { useSelector } from 'react-redux';
-import { RiArrowLeftSLine } from 'react-icons/ri';
 import { Link } from 'react-router-dom';
 import Footer from './Footer';
 import './styles/DetailsPage.css';
@@ -30,7 +29,7 @@ const DetailsPage = () => {
   return (
     <div className="container">
       <Link to="/" className="back-link">
-        <RiArrowLeftSLine className="left-arrow-icon" />
+        Back
       </Link>
       <div className="card">
         <img src={icon} alt={name} />
