@@ -9,7 +9,6 @@
   - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Deployment](#live-demo)
-  - [Authors Zoom Recording](#zoom)
   - [Prerequisites](#prerequisites)
   - [Setup](#setup)
   - [Install](#install)
@@ -75,10 +74,6 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 - [Live Demo Link](https://cryptogate-metrics-webapp.netlify.app/)
-
-## 🚀 Zoom Video (explanation) <a name="zoom"></a>
-
-[Author's Explanation](https://www.loom.com/share/7c608a3bf20047e392b07468c5311006?sid=6c0196af-ef6b-4b73-a663-9ef3a98dad44)
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
