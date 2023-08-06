@@ -1,4 +1,4 @@
-> # 📖 CryptoGate Metrics-Webapp.
+> # 📖 CryptoGate Metrics-WebApp
 
 # 📗 Table of Contents
 
