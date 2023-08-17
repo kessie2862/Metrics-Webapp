@@ -1,0 +1,47 @@
+.filter-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto 1rem;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  margin-right: 1rem;
+  font-family: 'Lobster', cursive;
+  color: #656565;
+}
+
+.filter-input {
+  padding: 0.5rem;
+  width: 20rem;
+  max-width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 0.3rem;
+  font-size: 1rem;
+  margin: 1rem auto 2rem;
+}
+
+.filter-input::placeholder {
+  color: #656565;
+  opacity: 0.5;
+}
+
+.filter-input:focus {
+  border: 2px solid #656565;
+}
+
+/* Media query for viewport less than 600px */
+@media (max-width: 600px) {
+  .filter-container {
+    flex-direction: column;
+  }
+
+  .filter-input {
+    margin: 0 auto;
+    margin-top: 1rem;
+  }
+}
